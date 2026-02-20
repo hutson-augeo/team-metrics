@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "Wilendar.claude-usage-monitor",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens"
+  ]
+}

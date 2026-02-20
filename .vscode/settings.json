@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "files.exclude": { "node_modules": true, "dist": true, "data/live": true },
+  "claude.apiKey": "${env:ANTHROPIC_API_KEY}"
+}

@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-02-20",
+  "tokens": {
+    "weeklyBudget": 700000,
+    "weeks": [
+      { "week": "Wk 1", "input": 420000, "output": 185000 },
+      { "week": "Wk 2", "input": 510000, "output": 210000 },
+      { "week": "Wk 3", "input": 490000, "output": 230000 },
+      { "week": "Wk 4", "input": 640000, "output": 290000 }
+    ]
+  },
+  "prDefects": {
+    "withAI":    { "prs": 148, "defects": 3.2 },
+    "withoutAI": { "prs": 94,  "defects": 5.8 }
+  },
+  "delivery": {
+    "sprints": [
+      { "sprint": "S1", "delivered": 3, "total": 4 },
+      { "sprint": "S2", "delivered": 4, "total": 4 },
+      { "sprint": "S3", "delivered": 2, "total": 5 },
+      { "sprint": "S4", "delivered": 5, "total": 5 },
+      { "sprint": "S5", "delivered": 4, "total": 5 }
+    ]
+  },
+  "techHealth": {
+    "monthlyUpdates": [
+      { "month": "Sep", "updates": 2, "target": 3 },
+      { "month": "Oct", "updates": 3, "target": 3 },
+      { "month": "Nov", "updates": 1, "target": 3 },
+      { "month": "Dec", "updates": 3, "target": 3 },
+      { "month": "Jan", "updates": 4, "target": 3 },
+      { "month": "Feb", "updates": 2, "target": 3 }
+    ]
+  },
+  "survey": {
+    "aiConfidence": 4.1,
+    "codeReviewQuality": 3.7,
+    "onboarding": 4.3,
+    "techDebtAwareness": 3.2,
+    "priorityClarity": 3.9
+  }
+}
