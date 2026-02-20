@@ -4,7 +4,7 @@ Developer Productivity & Happiness Scorecard — LinkedIn DPH Framework
 ## Quick Start
 1. Copy `.env.example` to `.env` and fill in your API keys
 2. Run `npm install` then `npm run dev`
-3. See INTEGRATIONS.md to replace sample data with live sources
+3. See [integration-checklist.md](./integration-checklist.md) to replace sample data with live sources
 
 ## Stack
 - React 18 + Vite
@@ -14,6 +14,6 @@ Developer Productivity & Happiness Scorecard — LinkedIn DPH Framework
 - Jira / Linear API (P1 delivery)
 
 ## Docs
-- [Project Writeup](./WRITEUP.md)
-- [Integration Checklist](./INTEGRATIONS.md)
+- [Project Writeup](./project-writeup.md)
+- [Integration Checklist](./integration-checklist.md)
 - [LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
