@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid,
@@ -362,14 +362,14 @@ export default function App() {
               <span style={{ fontSize: 11, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase" }}>Value</span>
               <span style={{ fontSize: 11, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase" }}>Status</span>
               {metrics.map(m => (
-                <>
-                  <span key={m.id+"g"} style={{ fontSize: 12, fontWeight: 600, color: COLORS.indigo }}>{m.goal}</span>
-                  <span key={m.id+"s"} style={{ fontSize: 13, color: "#475569", padding: "6px 0", borderBottom: "1px solid #f1f5f9" }}>{m.signal}</span>
-                  <span key={m.id+"v"} style={{ fontSize: 13, fontWeight: 600, color: "#1e293b", borderBottom: "1px solid #f1f5f9" }}>{m.value}</span>
-                  <span key={m.id+"b"} style={{ borderBottom: "1px solid #f1f5f9", paddingBottom: 6 }}>
+                <React.Fragment key={m.id}>
+                  <span style={{ fontSize: 12, fontWeight: 600, color: COLORS.indigo }}>{m.goal}</span>
+                  <span style={{ fontSize: 13, color: "#475569", padding: "6px 0", borderBottom: "1px solid #f1f5f9" }}>{m.signal}</span>
+                  <span style={{ fontSize: 13, fontWeight: 600, color: "#1e293b", borderBottom: "1px solid #f1f5f9" }}>{m.value}</span>
+                  <span style={{ borderBottom: "1px solid #f1f5f9", paddingBottom: 6 }}>
                     <Badge color={m.color} label={m.color === "green" ? "✓" : m.color === "yellow" ? "!" : "✗"} />
                   </span>
-                </>
+                </React.Fragment>
               ))}
             </div>
           </Card>

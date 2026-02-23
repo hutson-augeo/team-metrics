@@ -2,6 +2,7 @@
   "name": "team-metrics",
   "version": "1.0.0",
   "description": "Developer Productivity & Happiness Scorecard — DPH Framework",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
