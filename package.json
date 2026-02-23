@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "fetch-data": "bash scripts/fetch-metrics.sh"
+    "fetch-data": "bash scripts/fetch-metrics.sh",
+    "screenshots": "node scripts/screenshot.js"
   },
   "dependencies": {
     "react": "^18.3.0",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.0",
+    "playwright": "^1.58.2",
     "vite": "^5.4.0"
   }
 }
